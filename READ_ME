@@ -1,4 +1,0 @@
-In our github repository you will find three files excluding this. 
-The first one is called "2016_StockDirection_RF.ipynb" which is where we implemented our code to attempt to get a better accuracy than the researchers who wrote the paper.
-The second file is "AAPL.csv" which is the dataset that we worked with and used to implement our code. 
-The last file is "RandomForestAlgoo.ipynb" which is where we made our initial comments when we tried running the researchers code to understand it. 
