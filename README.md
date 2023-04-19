@@ -1,0 +1,8 @@
+# DS340W-Midterm
+The researchers of this paprt had a specific workflow pipeline that they followed which includes data collection, exponential smoothing, feature extraction, and ensemble learning followed by the training and testing for the market price prediction. Exponential smoothing is done to give more weightage and priority to more recent prices and less to older observations. For stocks, a very popular method to check for the momentum of the stock is called Relative Strength Index (RSI), the researchers used this alongside Stochastic Oscillator, William’s %R, and other stock momentum formula before it is fed into the Random Forest Decision Tree Classifier Algorithm. This paper is excellent for observing how using official Stock momentum formulae can help calculate whether a user should buy the stock (indicated by a stock being labeled as +1) or sold (accordingly labeled as -1)
+# Creativity done by our team: 
+Our team had the goal to improve the accuracy of the paper by testing out our own methods. The two methods that we tried were XGBoost and K-fold testing. After trial and error of several parameters we figured out that K-fold managed to improve the accuracy whereas XGBoost performed slightly below our expectations. 
+# In our github repository you will find three main files: 
+* The first one is called "2016_StockDirection_RF.ipynb" which is where we implemented our code to attempt to get a better accuracy than the researchers who wrote the paper.
+* The second file is "AAPL.csv" which is the dataset that we worked with and used to implement our code. 
+* The last file is "RandomForestAlgoo.ipynb" which is where we made our initial comments when we tried running the researchers code to understand it. 
